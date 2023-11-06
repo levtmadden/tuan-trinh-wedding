@@ -1,0 +1,185 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 826px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3rem;
+  width: 664px;
+  font-family: "Cormorant Infant";
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  width: 711px;
+  margin: 107px auto 33px;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: repeat(2, calc(50% - 10px));
+  min-height: 532px;
+  grid-gap: 20px;
+}
+
+.u-section-1 .u-image-1 {
+  background-image: url("images/shippou.jpg");
+  background-position: 43.43% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Cormorant Infant";
+  margin: 260px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  margin: 12px 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Cormorant Infant";
+  margin: 23px 0 0;
+}
+
+.u-section-1 .u-social-icons-1 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 101px;
+  min-width: 68px;
+  margin: 20px auto 0 0;
+}
+
+.u-section-1 .u-icon-1 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-3 {
+  height: 100%;
+}
+
+.u-section-1 .u-image-2 {
+  background-image: url("images/levt.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-5 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Cormorant Infant";
+  margin: 260px 0 0;
+}
+
+.u-section-1 .u-text-6 {
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  margin: 12px 0 0;
+}
+
+.u-section-1 .u-text-7 {
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Cormorant Infant";
+  margin: 23px 0 0;
+}
+
+.u-section-1 .u-social-icons-2 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 101px;
+  min-width: 68px;
+  margin: 20px auto 0 0;
+}
+
+.u-section-1 .u-icon-4 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-5 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-6 {
+  height: 100%;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1353px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 423px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+    min-height: 1026px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1331px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
+    margin-bottom: 38px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 400px;
+}
