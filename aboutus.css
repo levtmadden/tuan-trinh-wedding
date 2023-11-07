@@ -1,10 +1,10 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 515px;
+  min-height: 754px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 98px;
+  margin-bottom: 60px;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -12,17 +12,17 @@
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .u-section-1 .u-text-1 {
   font-family: "Cormorant Infant";
-  margin: 147px 0 0;
+  margin: 172px -40px 0 100px;
 }
 
 .u-section-1 .u-text-2 {
   font-family: "Cormorant Infant";
-  margin: 27px 0 0;
+  margin: 27px -40px 0 100px;
 }
 
 .u-section-1 .u-layout-cell-2 {
@@ -38,14 +38,14 @@
   width: 316px;
   height: 258px;
   object-position: 50% 16.67%;
-  margin: 0 auto 0 0;
+  margin: -16px auto 0 -22px;
 }
 
 .u-section-1 .u-image-2 {
   width: 324px;
   height: 258px;
   object-position: 50% 10.96%;
-  margin: -81px 0 0 auto;
+  margin: -19px -30px -45px auto;
 }
 
 .u-section-1 .u-layout-cell-3 {
@@ -53,17 +53,17 @@
 }
 
 .u-section-1 .u-container-layout-3 {
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .u-section-1 .u-text-3 {
   font-family: "Cormorant Infant";
-  margin: 20px 0 0;
+  margin: 27px 100px 0 -40px;
 }
 
 .u-section-1 .u-text-4 {
   font-family: "Cormorant Infant";
-  margin: 20px 0 0;
+  margin: 20px 100px 0 -40px;
 }
 
 @media (max-width: 1199px) {
@@ -73,6 +73,14 @@
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 70px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 70px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -91,13 +99,28 @@
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 359px;
+    min-height: 445px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-top: 0;
+    margin-right: 70px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
+    margin-right: 40px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 326px;
+    min-height: 510px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -117px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -105,15 +128,32 @@
     padding-right: 20px;
   }
 
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 470px;
+  }
+
   .u-section-1 .u-image-1 {
-    width: 200px;
-    height: 163px;
+    width: 245px;
+    height: 200px;
+    margin-top: 38px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-image-2 {
-    width: 205px;
-    height: 163px;
-    margin-top: -38px;
+    width: 245px;
+    height: 195px;
+    margin-top: -13px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 
   .u-section-1 .u-layout-cell-3 {
@@ -124,6 +164,16 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -132,8 +182,8 @@
   }
 
   .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -154,23 +204,45 @@
   }
 
   .u-section-1 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 963px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 0;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 483px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
   .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 367px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -76px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-image-2 {
-    width: 278px;
-    height: 195px;
-    margin-top: -78px;
-    margin-right: 0;
+    width: 308px;
+    height: 199px;
+    margin-top: 20px;
     margin-left: auto;
   }
-}.u-section-2 .u-sheet-1 {
-  min-height: 400px;
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 276px;
+  }
 }
