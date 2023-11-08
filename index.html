@@ -651,6 +651,10 @@
                         value="c089f641-3479-e2c8-58e3-928c1f11ccc1" />
                     </form>
                   </div>
+                  <div id="imageModal" class="modal">
+                    <span class="close" id="closeModal">&times;</span>
+                    <img id="modalImage" src="" alt="Image" />
+                  </div>
                   <div class="custom-expanded u-list u-list-1">
                     <div class="u-repeater u-repeater-1">
                       <div
@@ -659,11 +663,11 @@
                           class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
                           <img
                             class="u-file-link u-hover-feature u-image u-image-default u-image-1"
+                            id="tring-qr"
                             src="images/IMG_8113-11.jpg"
                             alt=""
                             data-image-width="330"
-                            data-image-height="502"
-                            data-href="files/IMG_8113.jpg" />
+                            data-image-height="502" />
                         </div>
                       </div>
                       <div
@@ -672,34 +676,17 @@
                           class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
                           <img
                             class="u-file-link u-hover-feature u-image u-image-default u-image-2"
+                            id="tuan-qr"
                             src="images/IMG_8113-11.jpg"
                             alt=""
                             data-image-width="330"
-                            data-image-height="502"
-                            data-href="files/IMG_4918.JPG" />
+                            data-image-height="502" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <script>
-                function openImageInPopup() {
-                  const imageURL = document.getElementById("myImage").src;
-
-                  // Create a popup window
-                  const popupWindow = window.open(
-                    "",
-                    "_blank",
-                    "width=300,height=500"
-                  );
-
-                  // Write the image to the popup window
-                  popupWindow.document.write(
-                    '<img src="' + imageURL + '" alt="Image description">'
-                  );
-                }
-              </script>
               <div
                 class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                 <div
@@ -719,6 +706,7 @@
           class="u-border-2 u-border-grey-15 u-expanded-width-xs u-line u-line-horizontal u-line-2"></div>
       </div>
     </section>
+    <script type="text/javascript" src="home.js"></script>
     <section class="u-clearfix u-section-5" id="carousel_e3ab">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div

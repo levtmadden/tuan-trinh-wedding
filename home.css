@@ -333,7 +333,8 @@
   .u-section-1 .u-group-1 {
     width: 340px;
   }
-}.u-section-2 .u-sheet-1 {
+}
+.u-section-2 .u-sheet-1 {
   min-height: 631px;
 }
 
@@ -363,7 +364,8 @@
     width: 340px;
     height: 340px;
   }
-}.u-section-3 .u-sheet-1 {
+}
+.u-section-3 .u-sheet-1 {
   min-height: 1111px;
 }
 
@@ -676,7 +678,8 @@
   .u-section-3 .u-image-3 {
     min-height: 358px;
   }
-}.u-section-4 .u-sheet-1 {
+}
+.u-section-4 .u-sheet-1 {
   min-height: 887px;
 }
 
@@ -988,7 +991,12 @@
 .u-section-4 .u-image-2,
 .u-section-4 .u-image-2:before,
 .u-section-4 .u-image-2 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-4 .u-image-2.u-image-2.u-image-2:hover {
@@ -1010,7 +1018,12 @@
 .u-section-4 .u-image-1,
 .u-section-4 .u-image-1:before,
 .u-section-4 .u-image-1 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-4 .u-image-1.u-image-1.u-image-1:hover {
@@ -1027,7 +1040,8 @@
 
 .u-container-layout.hover .u-section-4 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}.u-section-5 .u-sheet-1 {
+}
+.u-section-5 .u-sheet-1 {
   min-height: 50vw;
 }
 
@@ -1169,4 +1183,32 @@
     width: 317px;
     margin-top: 31px;
   }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.modal img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 }
