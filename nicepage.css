@@ -43437,11 +43437,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-2 {
-  min-height: 32px;
+  min-height: 34px;
 }
 
 .u-header .u-menu-1 {
-  margin: 0 auto 27px;
+  margin: 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -43461,7 +43461,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-3 {
   font-family: "Cormorant Infant";
   width: auto;
+  font-weight: normal;
   margin: -28px auto 60px;
+}
+
+.u-header .u-btn-1 {
+  background-image: none;
+  font-family: "Cormorant Infant";
 }
 @media (max-width: 1199px) {
   .u-header .u-image-2 {
@@ -43472,11 +43478,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -54px;
   }
 }
-@media (max-width: 1199px) {
-  .u-header .u-text-3 {
-    font-weight: normal;
-  }
-}
+
 
 
 @media (max-width: 767px) {
@@ -43494,17 +43496,22 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-2 {
+    min-height: 32px;
+  }
+
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: 2px;
-    margin-bottom: 0;
     margin-left: 0;
   }
 
   .u-header .u-text-3 {
     width: 39px;
-    margin-top: -30px;
     margin-bottom: 0;
+  }
+
+  .u-header .u-btn-1 {
+    padding: 0;
   }
 }
 @media (max-width: 575px) {
