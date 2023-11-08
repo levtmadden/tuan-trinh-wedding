@@ -1,5 +1,5 @@
 // Get elements
-const trinhQr = document.getElementById("tring-qr");
+const trinhQr = document.getElementById("trinh-qr");
 const tuanQr = document.getElementById("tuan-qr");
 const imageModal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
