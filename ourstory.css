@@ -6,8 +6,9 @@
   font-family: "Cormorant Infant";
   font-size: 2rem;
   margin: 50px auto 60px;
-}.u-section-2 .u-sheet-1 {
-  min-height: 400px;
+}
+.u-section-2 .u-sheet-1 {
+  min-height: 200px;
 }
 
 .u-section-1 .u-text-3 {
@@ -18,4 +19,13 @@
 .u-section-1 h4 {
   font-family: "Cormorant Infant";
   margin: 20px 0 0;
+}
+
+@media screen and (max-width: 700px) {
+  .row-text {
+    order: 1;
+  }
+  .row-image {
+    order: 2;
+  }
 }
